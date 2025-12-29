@@ -2,6 +2,16 @@
 
 // Write a program to swap values of two int variables.
 
+/*
+Program: Swap values of two integers using a third variable
+Description: This program takes two integers from the user and
+             swaps their values using a temporary (third) variable.
+
+Input      : Take two integer numbers from the user.
+Processing : Swap values using a third variable.
+Output     : Print the swapped values.
+*/
+
 #include <stdio.h>
 
 int main () {

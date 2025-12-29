@@ -4,7 +4,11 @@
 
 /*
 Program: Find size of character constant.
-Description: 
+Description: This program calculates and displays the size of a character constant using the sizeof operator.
+
+Input      : No input required.
+Processing : Use sizeof operator on a character constant.
+Output     : Print size of character constant in bytes.
 */
 
 #include <stdio.h>
