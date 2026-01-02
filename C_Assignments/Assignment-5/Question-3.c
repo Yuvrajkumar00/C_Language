@@ -2,6 +2,15 @@
 
 // Write a program to check whether a given number is an even number or an odd number.
 
+/*
+Program: Check whether a given number is even or odd.
+Description: Take a number from the user, check whether it is even or odd using modulo % operator, and print the result.
+
+Input      : Take one integer from the user.
+Processing : Check whether the number is even or odd.
+Output     : Print "Even" or "Odd" based on condition.
+*/
+
 #include <stdio.h>
 
 int main () {

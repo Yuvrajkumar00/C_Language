@@ -1,6 +1,15 @@
 // ============================= ASSIGNMENT - 5 =============================
 
-// Write a program to ckeck whether a given year is a leap year or not.
+// Write a program to check whether a given year is a leap year or not.
+
+/*
+Program: Find leap year.
+Description: Take year from the user and check whether it is a leap year or not and then print the result.
+
+Input      : Take year from the user.
+Processing : Checking given year is a leap year or not.
+Output     : Print whether the year is a leap year or not.
+*/
 
 #include <stdio.h>
 

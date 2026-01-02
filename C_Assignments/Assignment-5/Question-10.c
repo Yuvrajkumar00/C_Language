@@ -2,6 +2,16 @@
 
 // Write a program to find the greatest among three given numbers. Print number once if the greatest number appears two or three times.
 
+/*
+Program: Find the greatest among three numbers.
+Description: Take three numbers from the user, compare the three numbers, and print the result.
+
+Input      : Take three integers from the user.
+Processing : Comparing three integers.
+Output     : Prints the number only once, even if repeated
+*/
+
+
 #include <stdio.h> 
 
 int main () {

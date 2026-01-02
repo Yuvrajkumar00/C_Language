@@ -2,6 +2,15 @@
 
 // Write a program to check whether a given number is a three digit number or not.
 
+/*
+Program: Check whether a given number is a three digit number or not.
+Description: Take a number from the user, check whether it is a three digit number or not, and print the result.
+
+Input      : Take one integer from the user.
+Processing : Check whether the number is three digit or not.
+Output     : Print the result "Number is three digit or Not".
+*/
+
 #include <stdio.h>
 
 int main () {
@@ -12,7 +21,8 @@ int main () {
     scanf("%d", &number);
 
     // Checking number is three digits or not
-    if (number > 99 && number < 1000)
+    if ((number > 99 && number < 1000) || 
+        (number < -99 && number > -1000))
     {
         printf("Number is three digits number");
     }

@@ -2,6 +2,15 @@
 
 // Write a program to check whether a given number is divisible by 5 or not.
 
+/*
+Program: Check whether a given number is divisible by 5 or not.
+Description: Take a number from the user, check whether it is divisible by 5 or not, and print the result.
+
+Input      : Take one integer from the user.
+Processing : Check whether the number is divisible by 5 or not using modulo % operator.
+Output     : Print "Divisible" or "Not Divisible" based on condition.
+*/
+
 #include <stdio.h>
 
 int main () {
@@ -20,4 +29,6 @@ int main () {
     {
         printf("Number is NOT divisible by 5");
     }
+
+    return 0;
 }

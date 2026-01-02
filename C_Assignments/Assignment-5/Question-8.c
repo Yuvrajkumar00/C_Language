@@ -2,6 +2,15 @@
 
 // Write a program to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots.
 
+/*
+Program: Check roots of quadratic equation is real & distinct, real & equal or imaginary roots.
+Description: Take three numbers from the user, find discriminant and check roots are real & distinct, real & equal or imaginary roots, and print the result.
+
+Input      : Take three integers from the user.
+Processing : Finding discriminant and then checking roots are real & distinct, real & equal, or imaginary roots.
+Output     : Print the result.
+*/
+
 #include <stdio.h>
 
 int main () {
