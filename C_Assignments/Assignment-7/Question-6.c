@@ -24,11 +24,23 @@ Output :
 
 #include <stdio.h>
 
+// This is first way
+// int main () {
+//     // Print 10 even natural numbers
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         printf("%d\n", 2*i);
+//     }
+    
+//     return 0;
+// }
+
+// This is second way
 int main () {
     // Print 10 even natural numbers
-    for (int i = 1; i <= 10; i++)
+    for (int i = 2; i <= 20; i=i+2)
     {
-        printf("%d\n", 2*i);
+        printf("%d\n", i);
     }
     
     return 0;

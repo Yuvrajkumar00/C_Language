@@ -25,19 +25,19 @@ Output :
 #include <stdio.h>
 
 // This is first way
-int main () {
-    // Print first 10 odd natural numbers
-    for (int i = 1; i <= 10; i++)
-    {
-        printf("%d\n", 2*i-1);
-    }
+// int main () {
+//     // Print first 10 odd natural numbers
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         printf("%d\n", 2*i-1);
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
 
 // This is second way
 // int main () {
-//     // Print first 10 natural numbers
+//     // Print first 10 odd natural numbers
 //     for (int i = 1; i <= 19; i=i+2)
 //     {
 //         printf("%d\n", i);
@@ -45,3 +45,14 @@ int main () {
     
 //     return 0;
 // }
+
+// This is third way
+int main () {
+    // Print first 10 odd natural numbers
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d\n", i+(i-1));
+    }
+    
+    return 0;
+}

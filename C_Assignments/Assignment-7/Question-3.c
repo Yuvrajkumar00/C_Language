@@ -25,11 +25,23 @@ Output :
 
 #include <stdio.h>
 
+// This is first way
+// int main () {
+//     // Print first 10 natural numbers in reverse order
+//     for (int i = 10; i >= 1; i--)
+//     {
+//         printf("%d\n", i);
+//     }
+    
+//     return 0;
+// }
+
+// This is second way
 int main () {
     // Print first 10 natural numbers in reverse order
-    for (int i = 10; i >= 1; i--)
+    for (int i = 1; i <= 10; i++)
     {
-        printf("%d\n", i);
+        printf("%d\n", 11-i);
     }
     
     return 0;

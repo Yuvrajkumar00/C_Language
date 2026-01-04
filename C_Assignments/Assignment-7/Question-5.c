@@ -47,11 +47,22 @@ Output :
 // }
 
 // This is third way
+// int main () {
+//     // Print first 10 odd natural numbers in reverse order
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         printf("%d\n", 20-(2*i-1));
+//     }
+    
+//     return 0;
+// }
+
+// This is fouth way
 int main () {
     // Print first 10 odd natural numbers in reverse order
     for (int i = 1; i <= 10; i++)
     {
-        printf("%d\n", 20-(2*i-1));
+        printf("%d\n", 22-(2*i+1));
     }
     
     return 0;
