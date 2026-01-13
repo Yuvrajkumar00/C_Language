@@ -1,0 +1,21 @@
+// =========================== ASSIGNMENT - 14 =============================
+
+// Write a function to print first N odd natural numbers. (TSRN)
+
+#include <stdio.h>
+void printOddNaturalNum(int);
+
+int main () {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    printOddNaturalNum(num);
+    return 0;
+}
+
+void printOddNaturalNum(int num) {
+    for (int i = 1; i <= num; i++)
+    {
+        printf("%d ", 2*i-1);
+    }
+}
